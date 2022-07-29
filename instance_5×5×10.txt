@@ -1,0 +1,86 @@
+The total number of orders:
+5
+
+The total number of machines:
+10
+
+The total number of factories:
+5
+
+Number of spare parts types:
+3
+
+Transfer time between factories and demand points:
+(Where rows denote factories: 1 to 5 and columns denote demand points: 1 to 5.)
+202	208	270	266	149
+174	127	206	166	78
+148	109	108	191	169
+217	165	184	196	71
+285	66	72	223	237
+
+Spare parts types of different orders:
+ (Where columns denote orders: 1 to 5.)
+3	3	3	3	2
+
+The weight of tardiness cost of orders:
+ (Where columns denote orders: 1 to 5.)
+3.7	3.8	5.3	6	4.1
+
+The inventory holding cost per unit time of spare parts:
+ (Where columns denote types: 1 to 3.)
+2.5	1.2	2.2
+
+The processing time of different types of spare parts
+(Where rows denote machines: 1 to 10 and columns denote types: 1 to 3.)
+14	24	11
+17	18	12
+23	11	27
+11	24	19
+24	22	21
+18	11	19
+26	12	11
+17	29	27
+16	19	15
+29	10	15
+
+Due windows of different orders:
+(Where the two rows respectively reprsent the earliest delivery time and the latest delivery time and columns denote orders: 1 to 5.)
+136.8	131.1	131.1	128.25	136.8
+148.2	156.75	156.75	151.05	148.2
+
+The ideal delivery time of different orders 
+(Where the columns reprsent orders:1 to 5.)
+142.5	142.5	142.5	142.5	142.5
+
+The operating efficiency of different equipment at different speed levels
+(Where rows denote equipment listed by spare part types: 1 to 3 and columns denote speed levels: 1 to 2.)
+15	20.7
+12.6	21.9
+15	23.1
+
+The deterioration rate of different equipment at different speed levels
+(Where rows denote equipment: 1 to 5 and columns denote speed levels: 1 to 2.)
+0.75	1.48
+1.09	1.81
+1	1.77
+1.08	1.81
+0.74	1.55
+
+The initial health value of different equipment 
+(Where the columns reprsent equipment:1 to5.)
+210.9	257.93	252.23	257.93	220.88
+
+The transportation cost per unit time
+3
+
+The number of different spare parts reserved in different warehouses
+(Where rows denote warehouses: 1 to 5 and columns denote types: 1 to 3.)
+0	0	0
+0	0	0
+0	0	0
+0	0	0
+1	0	0
+
+The stock time of unused spare parts  
+54.8
+

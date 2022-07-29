@@ -1,0 +1,85 @@
+The total number of orders:
+10
+
+The total number of machines:
+10
+
+The total number of factories:
+2
+
+Number of spare parts types:
+3
+
+Transfer time between factories and demand points:
+(Where rows denote factories: 1 to 2 and columns denote demand points: 1 to 10.)
+72	245	278	139	244	288	128	93	233	235
+150	99	136	109	76	97	224	182	282	239
+
+Spare parts types of different orders:
+ (Where columns denote orders: 1 to 10.)
+2	2	1	2	3	2	3	3	3	3
+
+The weight of tardiness cost of orders:
+ (Where columns denote orders: 1 to 10.)
+5.1	6	5.3	5.5	5.1	4.8	5.3	4.5	5.6	3.2
+
+The inventory holding cost per unit time of spare parts:
+ (Where columns denote types: 1 to 3.)
+2.9	1.2	2.1
+
+The processing time of different types of spare parts
+(Where rows denote machines: 1 to 10 and columns denote types: 1 to 3.)
+20	28	10
+25	13	24
+12	15	20
+22	19	17
+16	27	11
+16	20	17
+21	15	14
+27	20	14
+13	21	26
+23	18	17
+
+Due windows of different orders:
+(Where the two rows respectively reprsent the earliest delivery time and the latest delivery time and columns denote orders: 1 to 10.)
+125.28	142.59	158.86	162.75	139.68	165.54	157.14	139.68	139.68	138.24
+159.84	158.76	192.66	196	151.2	187.86	184.68	155.52	164.16	149.76
+
+The ideal delivery time of different orders 
+(Where the columns reprsent orders:1 to 10.)
+144	147	169	175	144	186	162	144	144	144
+
+The operating efficiency of different equipment at different speed levels
+(Where rows denote equipment listed by spare part types: 1 to 3 and columns denote speed levels: 1 to 2.)
+11.7	20.6
+14.1	21.9
+12.7	21.6
+
+The deterioration rate of different equipment at different speed levels
+(Where rows denote equipment: 1 to 10 and columns denote speed levels: 1 to 2.)
+0.81	1.5
+0.75	1.42
+0.68	1.41
+0.75	1.41
+0.86	1.63
+0.9	1.61
+0.85	1.63
+0.84	1.62
+0.73	1.5
+0.68	1.42
+
+The initial health value of different equipment 
+(Where the columns reprsent equipment:1 to10.)
+216	208.74	238.29	246.75	234.72	299.46	264.06	233.28	216	204.48
+
+The transportation cost per unit time
+3
+
+The number of different spare parts reserved in different warehouses
+(Where rows denote warehouses: 1 to 2 and columns denote types: 1 to 3.)
+0	1	2
+0	0	0
+
+The stock time of unused spare parts  
+269
+

@@ -1,0 +1,85 @@
+The total number of orders:
+15
+
+The total number of machines:
+5
+
+The total number of factories:
+2
+
+Number of spare parts types:
+3
+
+Transfer time between factories and demand points:
+(Where rows denote factories: 1 to 2 and columns denote demand points: 1 to 15.)
+196	290	212	282	100	118	107	230	265	290	195	183	99	188	209
+226	191	197	267	102	240	295	102	278	196	102	191	178	107	66
+
+Spare parts types of different orders:
+ (Where columns denote orders: 1 to 15.)
+3	2	3	3	2	2	2	1	1	2	3	2	3	3	2
+
+The weight of tardiness cost of orders:
+ (Where columns denote orders: 1 to 15.)
+5.5	3.5	4	5.9	5.4	3.7	6	3.2	4.3	4.2	4.2	3.3	4.3	4.8	6
+
+The inventory holding cost per unit time of spare parts:
+ (Where columns denote types: 1 to 3.)
+1.4	1.7	1.5
+
+The processing time of different types of spare parts
+(Where rows denote machines: 1 to 5 and columns denote types: 1 to 3.)
+16	17	26
+17	25	17
+13	14	17
+25	26	27
+19	26	19
+
+Due windows of different orders:
+(Where the two rows respectively reprsent the earliest delivery time and the latest delivery time and columns denote orders: 1 to 15.)
+129.8	131.28	146.03	128.32	144.55	126.85	128.32	126.85	129.8	137.18	147.5	146.03	146.03	141.6	126.85
+147.5	166.67	169.63	168.15	156.35	168.15	163.73	151.93	163.73	159.3	162.25	160.78	157.83	162.25	153.4
+
+The ideal delivery time of different orders 
+(Where the columns reprsent orders:1 to 15.)
+147.5	147.5	147.5	147.5	147.5	147.5	147.5	147.5	147.5	147.5	147.5	147.5	147.5	147.5	147.5
+
+The operating efficiency of different equipment at different speed levels
+(Where rows denote equipment listed by spare part types: 1 to 3 and columns denote speed levels: 1 to 2.)
+13.1	22.1
+13.4	23.2
+13	21.1
+
+The deterioration rate of different equipment at different speed levels
+(Where rows denote equipment: 1 to 15 and columns denote speed levels: 1 to 2.)
+0.71	1.37
+0.8	1.72
+0.71	1.37
+0.8	1.5
+0.75	1.66
+0.68	1.54
+0.94	1.81
+0.82	1.62
+0.82	1.63
+0.85	1.76
+0.85	1.55
+0.92	1.8
+0.77	1.46
+0.66	1.29
+0.75	1.66
+
+The initial health value of different equipment 
+(Where the columns reprsent equipment:1 to15.)
+202.08	253.7	202.08	221.25	244.85	227.15	266.98	238.95	240.43	259.6	228.63	265.5	215.35	190.28	244.85
+
+The transportation cost per unit time
+3
+
+The number of different spare parts reserved in different warehouses
+(Where rows denote warehouses: 1 to 2 and columns denote types: 1 to 3.)
+1	0	1
+2	1	0
+
+The stock time of unused spare parts  
+394
+
